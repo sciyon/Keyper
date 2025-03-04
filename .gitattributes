@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+.env
