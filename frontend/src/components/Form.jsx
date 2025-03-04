@@ -46,6 +46,7 @@ const Form = ({ route, method }) => {
             onChange={(e) => setPassword(e.target.value)} 
             className='border-2 border-gray-300 rounded-md p-2'
         />
+        {loading && <LoadingIndicator />}
         <button 
             type='submit' 
             className='bg-blue-500 text-white py-2 px-4 rounded-md'>
